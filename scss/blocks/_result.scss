@@ -1,0 +1,51 @@
+.result{
+  padding-top: 51px;
+  padding-bottom: 134px;
+}
+.result__inner{
+  max-width: 698px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px;
+  padding-bottom: 130px;
+  border-radius: 34px;
+border: 1px solid var(--neutral-300, #EFF0F6);
+background: var(--neutral-100, #FFF);
+
+/* Cards/Short Default */
+box-shadow: 0px 5px 16px 0px rgba(8, 15, 52, 0.06);
+}
+.result__title{
+  margin-top: 0;
+  margin-bottom: 43px;
+  color: var(--neutral-800, #170F49);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Headings/Typography Size 2 */
+font-family: DM Sans;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: 46px; /* 135.294% */
+}
+
+.result__list{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.result__item{
+  margin-bottom: 16px;
+  color: #000;
+
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Headings/Typography Size 2 */
+font-family: DM Sans;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: 46px; /* 135.294% */
+}

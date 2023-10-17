@@ -1,0 +1,139 @@
+.site-footer{
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+.footer-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-text{
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--neutral-600, #6F6C90);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Paragraph/Default */
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.footer-inp{
+  width: 507px;
+
+  padding: 25px 0 27px 31px;
+  border-radius: 60px;
+border: 1px solid var(--neutral-300, #EFF0F6);
+background: var(--neutral-100, #FFF);
+box-shadow: 0px 8px 25px 0px rgba(13, 10, 44, 0.06);
+}
+.footer-form{
+  display: flex;
+  position: relative;
+ 
+}
+.footer-btn{
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  width: 129px;
+  border-radius: 56px;
+background: var(--primary-color-1, #4A3AFF);
+box-shadow: 0px 3px 12px 0px rgba(74, 58, 255, 0.18);
+color: var(--neutral-100, #FFF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+border: none;
+/* Other/16-18 M */
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 112.5% */
+padding: 17px;
+}
+.footer-inp::placeholder{
+  color: var(--neutral-600, #6F6C90);
+
+  /* Other/18-20 R */
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 111.111% */
+}
+
+
+@media only screen and (max-Width:500px){
+  .footer-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-inp{
+    width: 300px;
+    padding: 15px;
+    font-size: 12px;
+  }
+  .footer-btn{
+    top: 5px;
+    max-width: 75px;
+    padding: 8px;
+    font-size: 10px;
+  }
+  .footer-text{
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .site-footer__logo{
+    margin: 0 auto;
+  }
+  .site-header__inner{
+    flex-direction: column;
+  }
+  .site-header__logo{
+    margin-bottom: 20px;
+  }
+  .radio-label:first-child{
+    margin-bottom: 18px;  
+  }
+  .radio-label{
+    width: 300px;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  
+  }
+  .info-form{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .radio-label-p {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .radio-label-p:first-child{
+    margin-bottom: 18px;
+  }
+  .hero__name-fieldset{
+    padding-left: 5px;
+  }
+  
+
+.hero__name-input::placeholder{
+  font-size: 11px;
+}
+  
+
+.project{
+  padding-top:20px ;
+  padding-bottom: 40px;
+}
+.hero{
+  padding-bottom: 0;
+}
+}

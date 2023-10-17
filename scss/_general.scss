@@ -1,0 +1,44 @@
+/*Html value for sticky footer*/
+
+
+html {
+  height: 100%;
+  margin: 0;
+}
+
+
+
+/*Box element property*/
+
+*, 
+*::before, 
+*::after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+/*Defauly body properties*/
+
+body {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 600;
+  background-color: var(--main-midnight-green-color);
+  overflow-x: hidden;
+}
+
+
+/*Default image properties*/
+
+img {
+  display: block;
+  height: auto;
+}
+
+.site-main {
+  flex-grow: 1;
+}
