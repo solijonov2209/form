@@ -1296,4 +1296,7 @@ img {
   .hero {
     padding-bottom: 0;
   }
+  .result__item {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=main.css.map */
